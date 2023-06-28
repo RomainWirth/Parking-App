@@ -30,7 +30,7 @@ const App: React.FC = () => {
   };
 
   return (
-    <div>
+    <div className="">
       <h1>Parking Management App</h1>
       {loading ? (
         <p>Loading...</p>
